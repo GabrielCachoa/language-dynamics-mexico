@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Search logs produced by the scripts (large, regenerable)
+local_search_results*.csv
+exhaustive_search_results*.csv
+
+# LaTeX build files (if you add the thesis source)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store
+Thumbs.db
